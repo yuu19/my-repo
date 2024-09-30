@@ -7,3 +7,5 @@ jobs:
     - run: echo "${{ github.actor }}"
     - run: echo "${{ github.event_name }}"
     - run: echo "${{ github.repository }}"
+    - run: echo "${{ runner.name }}"
+    - run: echo "${{ runner.os }}"
